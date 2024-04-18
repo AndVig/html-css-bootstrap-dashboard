@@ -40,8 +40,13 @@
     </nav>
 
     <!--Sidebar-->
-    <div>
-        <div class="d-sm-none d-none d-md-block d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px; height: 100vh;">
+    
+
+
+
+
+    <div class="d-flex">
+        <div class="d-sm-none position-fixed d-none d-md-block d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px; height: 100vh;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
               <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
               <span class="fs-4">Bootstrap dashboard</span>
@@ -94,9 +99,80 @@
             </div>
         </div>
         <!--Main Page-->
-        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-            <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
-            <p class="fs-5 text-body-secondary">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+        <div class="row">
+            <div class="col-5 d-sm-none d-none d-md-block"></div>
+            <div class="col">
+                <div class="container-fluid py-3 ms-1">
+                    <header>
+                      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                        <h1 class="display-4 fw-normal text-body-emphasis">Trova il piano perfetto per te!</h1>
+                        <p class="fs-5 py-3 text-body-secondary">Scegli tra le nostre opzioni di abbonamento e goditi funzionalità esclusive e performance migliori</p>
+                        <h2>Porta la tua esperienza al livello successivo</h2>
+        
+                        <div class="d-flex justify-content-center gap-5 py-5">
+                            <button class="btn w-50 btn-primary rounded-pill">Scopri di più</button>
+                            <button class="btn w-50 btn-outline-primary rounded-pill">Contattaci</button>
+                        </div>
+                      </div>
+                    </header>
+                  
+                    <main>
+                      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                        <div class="col">
+                          <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                              <h4 class="my-0 fw-normal">Free</h4>
+                            </div>
+                            <div class="card-body">
+                              <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                              <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>2 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                              </ul>
+                              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                              <h4 class="my-0 fw-normal">Pro</h4>
+                            </div>
+                            <div class="card-body">
+                              <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+                              <ul class="list-unstyled mt-3 mb-4">
+                                <li>20 users included</li>
+                                <li>10 GB of storage</li>
+                                <li>Priority email support</li>
+                                <li>Help center access</li>
+                              </ul>
+                              <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                            <div class="card-header py-3 text-bg-primary border-primary">
+                              <h4 class="my-0 fw-normal">Enterprise</h4>
+                            </div>
+                            <div class="card-body">
+                              <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+                              <ul class="list-unstyled mt-3 mb-4">
+                                <li>30 users included</li>
+                                <li>15 GB of storage</li>
+                                <li>Phone and email support</li>
+                                <li>Help center access</li>
+                              </ul>
+                              <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </main>
+                  </div>
+            </div>
         </div>
     </div>
     

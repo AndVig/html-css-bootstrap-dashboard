@@ -44,7 +44,7 @@
     <!--Sidebar-->
     <div class="row">
 
-    <div class="col-4">
+    <div class="d-sm-none d-none d-md-block col-4"style="width: 280px;">
     <div class="d-sm-none d-none d-md-block d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px; height: 100vh;">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
           <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
@@ -99,56 +99,131 @@
     </div>
 </div>
     <!--Main Page-->
-      <div class="col">            
+      <div class="col overflow-y-auto" style="height: 100vh;">            
     <div class="table-responsive">
       <table class="table text-center">
         <thead>
           <tr>
-            <th style="width: 34%;"></th>
-            <th style="width: 22%;">Free</th>
-            <th style="width: 22%;">Pro</th>
-            <th style="width: 22%;">Enterprise</th>
+            <th class="text-start" style="width: 34%;">Nome</th>
+            <th   style="width: 22%;"> <span class="d-none d-sm-table-cell">Prezzo</span> </th>
+            <th   style="width: 22%;"><span class="d-none d-sm-table-cell">Stato</span></th>
+            <th style="width: 22%;">Azioni</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row" class="text-start">Public</th>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Private</th>
-            <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-          </tr>
-        </tbody>
-
-        <tbody>
-          <tr>
-            <th scope="row" class="text-start">Permissions</th>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Sharing</th>
-            <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Unlimited members</th>
-            <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Extra security</th>
-            <td></td>
-            <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <td scope="row" class="text-start row"><div class="col-4"><img class="img-fluid" src="./img/mountain.jpg" alt=""></div> <div class="col">Sony Playstation</div></th>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell">150€</span> </td>
+            <td class="text-center"><span class="bi d-none d-sm-table-cell text-success fs-4"><i class="fa-regular fa-circle-check"></i></span> </td>
+            <td class="text-center"><button class="btn btn-outline-primary py-1 px-2 mx-2"><i class="fa-solid fa-pencil"></i></button><button class="btn btn-outline-danger py-1 px-2"><i class="fa-solid fa-trash"></i></button></td>
           </tr>
         </tbody>
       </table>

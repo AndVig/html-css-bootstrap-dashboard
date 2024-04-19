@@ -105,6 +105,7 @@
       <div class="container text-center">
         <div class="h2 fw-bold py-5">Crea nuovo prodotto</div>
         <p class="fs-5">I campi contrassegnati con un asterisco (*) sono obbligatori. <br>Le immagini devono essere in formato PNG e non devono superare i 4MB di dimensione</p>
+        
         <div class="row row-cols-md">
           <div class="col-md">
             <div class="row mb-3">
@@ -134,8 +135,19 @@
               
               <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Inserisci la descrizione del prodotto" rows="3"></textarea>
             </div>
+            <div class="input-group mb-3">
+              <input type="file" class="form-control" id="inputGroupFile02">
+              <label class="input-group-text" for="inputGroupFile02">Immagine</label>
+            </div>
+            <div class="input-group mb-3">
+              <label class="input-group-text" for="inputGroupSelect01">Disponibile</label>
+              <label class="input-group-text" for="inputGroupSelect01">Esaurito</label>
+              <label class="input-group-text" for="inputGroupSelect01">Fuori Produzione</label>
+              <label class="input-group-text" for="inputGroupSelect01">In Arrivo</label>
+            </div>
+            <div class="d-flex justify-content-start"><button class="btn btn-primary">Salva</button></div>
           </div>
-          <div class="col"></div>
+          <div class="col-md"></div>
         </div>
       </div>
     </div>

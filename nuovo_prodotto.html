@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <body>
+  
+
     <!--NavBar-->
     <nav class="navbar navbar-dark bg-dark d-md-none" aria-label="First navbar example">
         <div class="container-fluid">
@@ -38,8 +40,13 @@
           </div>
         </div>
     </nav>
-
+    <div class="row">
+        
+    </div>
     <!--Sidebar-->
+    <div class="row">
+
+    <div class="d-sm-none d-none d-md-block col-4"style="width: 280px;">
     <div class="d-sm-none d-none d-md-block d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px; height: 100vh;">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
           <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
@@ -92,8 +99,49 @@
           </ul>
         </div>
     </div>
+</div>
     <!--Main Page-->
-    
+    <div class="col overflow-y-auto" style="height: 100vh;">            
+      <div class="container text-center">
+        <div class="h2 fw-bold py-5">Crea nuovo prodotto</div>
+        <p class="fs-5">I campi contrassegnati con un asterisco (*) sono obbligatori. <br>Le immagini devono essere in formato PNG e non devono superare i 4MB di dimensione</p>
+        <div class="row row-cols-md">
+          <div class="col-md">
+            <div class="row mb-3">
+              <label for="inputNome" class="col-sm-2 col-form-label">Nome</label>
+              <div class="col-sm-10">
+                <input type="nome" class="form-control" id="inputNome" placeholder="Samsung Galaxy">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPrezzo" class="col-sm-2 col-form-label">Prezzo</label>
+              <div class="col-sm-10">
+                <input type="prezzo" class="form-control" id="inputPrezzo" placeholder="1000 guils">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputMarca" class="col-sm-2 col-form-label">Marca</label>
+              <div class="col-sm-10">
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected>---Seleziona---</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <div class="mb-3 ">
+              
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Inserisci la descrizione del prodotto" rows="3"></textarea>
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html> 
